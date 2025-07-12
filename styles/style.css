@@ -8,17 +8,85 @@
     "wdth" 100;
 }
 
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* Nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title{
     font-weight:800;
-    font: size 45px;
-    ;
+    font-size: 45px;
+    width: 121px;
+    height: 61px;
+    
 }
 .text-primary{
     color:#FD6E0A
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+.dark{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    padding: 18px 36px;
+    font-size: 20px;
+    border: none;
+    
+}
+.button-group {
+    display: flex;
+    gap: 20px; /* space between buttons */
+}
+.bannar-greeetings{
+    font-size: 45px;
+    font-weight:semi-bold;
+    color: #474747;
+}
+.bannar-title{
+    font-size: 85px;
+    font-weight:bold;
+    color: #181818;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.bannar-content{
+    margin: 100px 744px  189px 210px;    
+    width: 585px;
+    height: 356px;
+}
+.bannar-profile-pik{
+    width: 580px;
+    /* margin: 160px 10px 6px 880px; */
+
+    
 }
